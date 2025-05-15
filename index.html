@@ -1,7 +1,21 @@
-<div id="image">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Imagen en Hover</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="image">
     Hover over an image below to display here.
   </div>
-  
-  <img class="preview" alt="Atardecer en la playa" src="https://picsum.photos/id/1018/250/150" onmouseover="upDate(this)" onmouseout="unDo()">
-  <img class="preview" alt="Montañas nevadas" src="https://picsum.photos/id/1003/250/150" onmouseover="upDate(this)" onmouseout="unDo()">
-  <img class="preview" alt="Bosque en otoño" src="https://picsum.photos/id/1015/250/150" onmouseover="upDate(this)" onmouseout="unDo()">
+
+  <div class="gallery">
+    <img class="preview" alt="Atardecer en la playa" src="https://picsum.photos/id/1018/250/150" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="Montañas nevadas" src="https://picsum.photos/id/1003/250/150" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="Bosque en otoño" src="https://picsum.photos/id/1015/250/150" onmouseover="upDate(this)" onmouseout="unDo()">
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
