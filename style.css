@@ -5,6 +5,14 @@ body {
     font-family: sans-serif;
   }
   
+  .instruccion {
+    text-align: center;
+    font-size: 18px;
+    color: #050505;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
   #image {
     line-height: 650px;
     width: 575px;
@@ -12,7 +20,7 @@ body {
     border: 5px solid gold;
     margin: 0 auto;
     background-color: #f4ff94;
-    background-image: url(""); 
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     color: #050505;
