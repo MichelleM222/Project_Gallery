@@ -1,0 +1,32 @@
+body {
+    margin: 2%;
+    border: 1px solid gold;
+    background-color: #ff94f5;
+  }
+  
+  #image {
+    line-height: 650px;
+    width: 575px;
+    height: 650px;
+    border: 5px solid gold;
+    margin: 0 auto;
+    background-color: #f4ff94;
+    background-image: url(""); /* Inicialmente vacío */
+    background-repeat: no-repeat;
+    color: #050505;
+    text-align: center;
+    background-size: cover; /* Ajuste para que la imagen de fondo cubra el área */
+    margin-bottom: 25px;
+    font-size: 150%;
+  }
+  
+  .preview {
+    width: 15%; /* Aumentar el tamaño de las imágenes de previsualización */
+    margin: 10px; /* Espaciado para mejor disposición */
+    border: 5px solid gold;
+    cursor: pointer; /* Cambia el cursor para indicar interactividad */
+  }
+  
+  img {
+    width: 100%;
+  }
